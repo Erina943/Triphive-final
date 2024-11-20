@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TripHive</title>
+    <link
+      rel="shortcut icon"
+      href="Images/travel_icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar section  -->
+    <nav class="navbar navbar-expand-lg bg-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#index.html" id="logo"
+          ><span1>Trip</span1><span2>Hive</span2></a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#book">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#packages">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home section  -->
+
+    <div class="home">
+      <div class="content">
+        <h5>Welcome To World!</h5>
+        <h1>Visit <span class="changecontent"></span></h1>
+        <p>Your Gateway to Unforgettable Adventures!</p>
+        <a href="#book">Book Place</a>
+      </div>
+    </div>
+
+    <!-- book section  -->
+    <section class="book" id="book">
+      <div class="container">
+        <div class="main-text">
+          <h1><span>B</span>ook</h1>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img
+                src="Images/feeling-happy-pointing-self-with-excited.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-6 py-3 py-md-0">
+            <form action="#">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Where To"
+                required
+              /><br />
+              <input
+                type="text"
+                class="form-control"
+                placeholder="How Many"
+                required
+              /><br />
+              <input
+                type="date"
+                class="form-control"
+                placeholder="Arrival"
+                required
+              /><br />
+              <input
+                type="date"
+                class="form-control"
+                placeholder="Leaving"
+                required
+              /><br />
+              <textarea
+                class="form-control"
+                rows=""
+                name="text"
+                placeholder="Enter Your Name & Details"
+              ></textarea>
+              <input type="submit" value="Book Now" class="submit" required />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- packages section  -->
+
+    <section class="packages" id="packages">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>P</span>ackages</h1>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="Images/great wall of china.jpg" alt="" />
+              <div class="card-body">
+                <h3>China</h3>
+                <p>
+                  Great Wall of China: The longest wall in the world, with
+                  watchtowers and fortifications dating back to the Ming
+                  Dynasty.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="Images/Taj Mahal.jpg" alt="" />
+              <div class="card-body">
+                <h3>India</h3>
+                <p>
+                  The Taj Mahal: A masterpiece of Mughal architecture built with
+                  white marbel, intricate calligraphy, marble carvings, and
+                  floral designs.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="Images/istanbul.jpg" alt="" />
+              <div class="card-body">
+                <h3>Turkey</h3>
+                <p>
+                  The Hagia Sophia: A former Byzantine church and Ottoman mosque
+                  with exquisite architecture,showcasing Turkey's cultural
+                  heritage.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="Images/Colosseum 1.jpg" alt="" />
+              <div class="card-body">
+                <h3>Italy</h3>
+                <p>
+                  The Colosseum: The world's largest amphitheater, famous for
+                  gladiator contests and public spectacles and the power of the
+                  Roman Empire.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="Images/Alhambra.jpg" alt="" />
+              <div class="card-body">
+                <h3>Spain</h3>
+                <p>
+                  The Alhambra: A fortress complex that dates back to the 13th
+                  century and is a testament to the Islamic art of the Nasrid
+                  Dynasty.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="Images/hurghada.jpg" alt="" />
+              <div class="card-body">
+                <h3>Egypt</h3>
+                <p>
+                  The Pyramids: The largest of the three pyramids, Colossal
+                  structures built over 4,500 years ago without modern-day
+                  technology.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section  -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>G</span>allery</h1>
+
+          <div class="row" style="margin-top: 30px">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img
+                  src="Images/beautiful-cherry-blossoms-trees-blooming-spring.jpg"
+                  class="card-img-top"
+                  alt=""
+                  height="230px"
+                />
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img
+                  src="Images/luxury-sun-beach-perfect-bay.jpg"
+                  class="card-img-top"
+                  alt=""
+                  height="230px"
+                />
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img
+                  src="Images/water-landscape-freshness-beauty-forest.jpg"
+                  class="card-img-top"
+                  alt=""
+                  height="230px"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="margin-top: 30px">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img
+                  src="Images/waterfall-with-trees-around.jpg"
+                  alt=""
+                  height="230px"
+                />
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img
+                  src="Images/autumn-forest-with-river.jpg"
+                  alt=""
+                  height="230px"
+                />
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img
+                  src="Images/beautiful-cherry-blossoms-trees-blooming-spring.jpg"
+                  alt=""
+                  height="230px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section  -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="main-txt">
+          <h1>About <span>Us</span></h1>
+        </div>
+        <div class="row" style="margin-top: 50px">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img
+                src="Images/full-shot-travel-concept-with-landmarks.jpg"
+                alt=""
+                class="card-img-top"
+              />
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <h2>How Our Travel Agency Work</h2>
+            <p>
+              "At TripHive, we believe travel is more than just a journey, it's
+              an experience that shapes who we are. Our mission is to inspire
+              and empower travelers to explore the world with confidence,
+              curiosity, and excitement.we're here to help you turn your travel
+              dreams into reality. join us as we uncover the wonders of the
+              world, one adventure at a time."
+            </p>
+            <button id="about-btn">Read More...</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section  -->
+
+    <footer class="bg-dark text-light pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 custom-column">
+            <h5>Contact Us</h5>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fas fa-map-marker-alt"></i> 123 Explorer Avenue,
+                Wanderlust City, CA 76453, USA
+              </li>
+              <li><i class="fas fa-phone-alt"></i> +1 555-123-4567</li>
+              <li>
+                <i class="fas fa-envelope"></i
+                ><a href="mailto:info@triphive.com" class="text-white">
+                  info@triphive.com</a
+                >
+              </li>
+              <li>
+                <i class="fas fa-map"></i
+                ><a href="#" target="_blank" class="text-white">
+                  Find us on Google Maps</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 custom-column">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#index.html" class="text-decoration-none text-light"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="#book" class="text-decoration-none text-light">Book</a>
+              </li>
+              <li>
+                <a href="#packages" class="text-decoration-none text-light"
+                  >Packages</a
+                >
+              </li>
+              <li>
+                <a href="#gallery" class="text-decoration-none text-light"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="text-decoration-none text-light"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 custom-column">
+            <h5>Our Offices</h5>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa-solid fa-building"></i> North America: 786
+                Adventure Lane, <br />
+                New York, NY 1001, USA
+              </li>
+              <li>
+                <i class="fa-solid fa-building"></i> Europe: 45 Journey Street,
+                <br />
+
+                London, UK W1F 9BQ
+              </li>
+              <li>
+                <i class="fa-solid fa-building"></i> Asia: 22 Discovery Plaza,
+                Singapore 039281
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Follow us on</h5>
+            <div>
+              <a href="#" class="text-decoration-none text-light"
+                ><i class="fa-brands fa-facebook me-2"></i
+              ></a>
+              <a href="#" class="text-decoration-none text-light"
+                ><i class="fa-brands fa-instagram me-2"></i
+              ></a>
+              <a href="#" class="text-decoration-none text-light"
+                ><i class="fa-brands fa-x-twitter me-2"></i
+              ></a>
+              <a href="#" class="text-decoration-none text-light"
+                ><i class="fa-brands fa-linkedin me-2"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer bottom  -->
+
+        <div class="row mt-4">
+          <div class="col text-center">
+            <p>
+              &copy; 2024 Travel Website. All Rights reserved. | Designed by
+              TripHive
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font awsome link  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+      integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
