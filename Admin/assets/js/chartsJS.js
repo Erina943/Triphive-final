@@ -8,7 +8,7 @@ const myChart = new Chart(ctx1, {
         label: "# of Votes",
         data: [600, 800, 1000],
         backgroundColor: [
-          "rgba(54, 162, 235, 1)",
+          "rgba(54, 162, 234, 1)",
           "rgba(255, 99, 132, 1)",
           "rgba(255, 206, 86, 1)",
         ],
@@ -30,7 +30,7 @@ const myChart2 = new Chart(ctx2, {
         label: "Earning",
         data: [600, 800, 1000],
         backgroundColor: [
-          "rgba(54, 162, 235, 1)",
+          "rgba(54, 162, 234, 1)",
           "rgba(255, 99, 132, 1)",
           "rgba(255, 206, 86, 1)",
         ],
