@@ -27,13 +27,13 @@
   font-size: 50px;
 }
 #logo span2 {
-  color: #f5c9c8;
-  text-shadow: 1px 1px #5d6b6b;
+  color: #f27f98;
+  text-shadow: 1px 1px black;
   font-family: "Charm", cursive;
   font-weight: 700;
 }
 .navbar-toggler span {
-  color: #5d6b6b;
+  color: #f27f98;
 }
 
 .nav-item .nav-link {
@@ -46,11 +46,11 @@
 }
 
 .nav-item .nav-link:hover {
-  background: #5d6b6b;
+  background: #f27f98;
   color: white;
 }
 .navbar form button {
-  background: #053444;
+  background: #f27f98;
 }
 
 /* home section  */
@@ -84,7 +84,7 @@
 }
 .changecontent::after {
   content: " ";
-  color: #f5c9c8;
+  color: #f27f98;
   text-shadow: 0px 2px 2px black;
   animation: changetext 10s infinite linear;
 }
@@ -133,7 +133,7 @@
 .home .content a {
   padding: 10px;
   text-decoration: none;
-  background: #5d6b6b;
+  background: #f27f98;
   color: white;
   letter-spacing: 2px;
   font-weight: 550;
@@ -173,7 +173,7 @@
   font-weight: 600;
 }
 .main-text h1 span {
-  color: #87cdd9;
+  color: #f27f98;
 }
 .book .card {
   border-radius: 10px;
@@ -202,7 +202,7 @@
   width: 160px;
   font-size: 16px;
   font-weight: 550;
-  background: #5d6b6b;
+  background: #f27f98;
   color: white;
   margin-top: 10px;
   transition: 0.5s;
@@ -230,7 +230,7 @@
   text-shadow: 0px 1px 1px black;
 }
 .main-txt h1 span {
-  color: #73a2ac;
+  color: #f27f98;
 }
 .packages .card {
   border-radius: 8px;
@@ -254,21 +254,24 @@
   font-family: "Lato", serif;
 }
 .checked {
-  color: #5d6b6b;
+  color: #f27f98;
 }
 .star i {
   font-size: 15px;
+  margin-bottom: 30px;
 }
 .packages .card .card-body h6 {
   font-size: 20px;
+  margin-bottom: 20px;
 }
 .packages .card .card-body a {
   padding: 8px;
   text-decoration: none;
-  background: #5d6b6b;
+  background: #f27f98;
   color: white;
   border-radius: 8px;
-  margin-top: 10px;
+  margin-top: 20px;
+  transition: 0.5s;
 }
 .packages .card .card-body a:hover {
   background: #87cdd9;
@@ -319,7 +322,7 @@
   height: 38px;
   border: none;
   border-radius: 5px;
-  background: #5d6b6b;
+  background: #f27f98;
   color: white;
   letter-spacing: 2px;
   font-weight: 550;
@@ -336,8 +339,9 @@
 
 .custom-column ul li {
   text-align: justify;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 16px;
+  letter-spacing: 1px;
 }
 
 footer h5 {
@@ -347,7 +351,7 @@ footer h5 {
 }
 
 footer p {
-  background-color: #5d6b6b;
+  background-color: #87cdd9;
   padding: 10px 20px;
-  color: white;
+  color: black;
 }
